@@ -3,10 +3,42 @@
     pading:0px;
 }
 .menu-container{
-    background-color: black;
+    background-color: rgb(29, 28, 28);
     padding: 20px;
+    color:white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
 }
-.logo{
+.logo-photo{
     width: 120px;
 }
+.menus{
+    display: flex;
+}
+.item{
+    margin-right:10px;
+    padding-right: 7px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+.item:hover{
+    color:blue;
+    
+}
+.banner-img{
+    width: 300px
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border:2px solid gray;
+    align-items: center;
+    background-image: url(./image/);
+
+}
+
